@@ -7,3 +7,21 @@
 .load-hidden {
   visibility: hidden;
 }
+
+.panmimi {
+  margin-top: -25%;
+  @include respond(tab-land) {
+  margin-top: -20%;
+  }
+  @include respond(tab-port) {
+  margin-top: -19%;
+  }
+}
+.lettuce {
+  @include respond(tab-land) {
+    margin-bottom: -3%;
+    }
+  @include respond(tab-port) {
+    margin-bottom: -5%;
+    }
+}

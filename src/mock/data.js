@@ -2,26 +2,27 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'pocketfolio', // e.g: 'Name | Developer'
+  lang: 'ja', // e.g: en, es, fr, jp
+  description: 'Welcome to my portfolio site!', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'Kento',
+  subtitle: 'I love egg sunny-side up!',
+  cta: 'Me, too !',
+  ctc: 'More hard...'
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'bighead.png',
   paragraphOne: '',
   paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphThree: ``,
+  resume: 'https://www.wantedly.com/secret_profiles/cQqdHaLx1A_4MNNk5Xd-gQsnuicvb_QF', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,7 +30,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Corgi (講義情報サービス)',
     info: '',
     info2: '',
     url: '',
@@ -38,7 +39,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Blog with Next.js',
     info: '',
     info2: '',
     url: '',
@@ -47,7 +48,16 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Hanjuku Engineer(this portfolio)',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Pokedec with swr',
     info: '',
     info2: '',
     url: '',
@@ -59,7 +69,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'hakuyowasedatech@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,7 +78,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/pochi2pocket',
     },
     {
       id: nanoid(),
@@ -83,12 +93,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/pocketech',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
