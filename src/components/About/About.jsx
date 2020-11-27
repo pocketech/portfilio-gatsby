@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphThree, resume } = about;
+  const { img, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -44,7 +44,7 @@ const About = () => {
                   ポートフォリオのコンセプトは<span style={{ color: "#FFE500", fontWeight: 700 }}>「半熟エンジニア」</span>です。知識不足な点は多々あるけれど、秘めた好奇心を<span style={{ color: "red", fontWeight: 700 }}>メラメラ燃やして</span>完熟ボイルドエンジニアになるぞ！
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {/* {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'} */}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
