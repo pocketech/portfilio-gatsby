@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'corgi_mock.jpg',
+    img: 'corgi.jpg',
     title: 'Corgi (講義情報サービス)',
     info: '',
     info2: '',
@@ -56,7 +56,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'pokedex_mock.jpg',
+    img: 'pokedex.jpg',
     title: 'Pokedex with swr',
     info: '',
     info2: '',
