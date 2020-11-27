@@ -29,39 +29,39 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'corgi_mock.jpg',
     title: 'Corgi (講義情報サービス)',
     info: '',
     info2: '',
-    url: '',
+    url: 'https://redux-spa.web.app/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'blog.jpg',
     title: 'Blog with Next.js',
     info: '',
     info2: '',
-    url: '',
+    url: 'https://nextjs-blog-alpha-topaz.vercel.app/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'breakfast.jpg',
     title: 'Hanjuku Engineer(this portfolio)',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://laughing-kare-0c08e3.netlify.app/',
+    repo: 'https://github.com/pocketech/portfilio-gatsby', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Pokedec with swr',
+    img: 'pokedex_mock.jpg',
+    title: 'Pokedex with swr',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://pocketech.github.io/pokedex-typescript-swr/',
+    repo: 'https://github.com/pocketech/pokedex-typescript-swr', // if no repo, the button will not show up
   },
 ];
 
