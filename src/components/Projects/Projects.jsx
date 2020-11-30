@@ -45,10 +45,10 @@ const Projects = () => {
                       <div>
                         <h4><i class="fa fa-lightbulb-o" aria-hidden="true"></i>Inspiration</h4>
                         <p>{info}</p>
-                        <h4><i class="fa fa-tint" aria-hidden="true"></i>Difficulties</h4>
-                        <p>{info2}</p>
                         <h4><i class="fa fa-thumbs-up" aria-hidden="true"></i>Best Parts</h4>
                         <p>{info3}</p>
+                        <h4><i class="fa fa-tint" aria-hidden="true"></i>Difficulties</h4>
+                        <p>{info2}</p>
                         <h4><i class="fa fa-bolt" aria-hidden="true"></i>Use</h4>
                         <p className="mb-4">{info4}</p>
                       </div>
