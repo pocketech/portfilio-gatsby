@@ -38,17 +38,16 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                  {paragraphOne}
+                  どうもはじめまして！好きなことばは<span style={{ color: "#00f", fontWeight: 700 }}>「Compiled Successfully !!」</span>嫌いなエラーは<span style={{ color: "#f00", fontWeight: 700 }}>「Cannot read property 'map' of undefined</span>。React大好きボーイのKentoです。ゆっくり見ていってください！
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-
-                  {/* ポートフォリオのコンセプトは<span style={{ color: "#FFE500", fontWeight: 700 }}>「半熟エンジニア」</span>です。知識不足な点は多々あるけれど、秘めた好奇心を<span style={{ color: "red", fontWeight: 700 }}>メラメラ燃やして</span>完熟ボイルドエンジニアになるぞ！ */}
+                  {paragraphTwo}
+                  今年の３月に都内の大学を卒業して７月１６日より職業訓練校でWebを学んでいます！チームで意見を出し合いながらサービスをよりよくしていくプロセスに喜びを感じます。ぜひ興味を持って頂けたなら連絡してください！
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree}
+                  ポートフォリオのコンセプトは<span style={{ color: "#FFE500", fontWeight: 700 }}>「半熟エンジニア」</span>です。知識不足な点は多々あるけれど、秘めた好奇心を<span style={{ color: "red", fontWeight: 700 }}>メラメラ燃やして</span>完熟ボイルドエンジニアになるぞ！
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
