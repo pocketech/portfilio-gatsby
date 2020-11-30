@@ -30,9 +30,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'corgi.jpg',
-    title: 'Corgi (講義情報サービス)',
+    title: 'Corgi (大学生のための講義情報口コミサイト)',
     info: '',
     info2: '',
+    info3: '',
+    info4: 'React(CRA), Redux Toolkit, Material-UI, Firebase(Authentication,FireStore,Hosting), react-router-dom',
     url: 'https://redux-spa.web.app/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -42,6 +44,8 @@ export const projectsData = [
     title: 'Blog with Next.js',
     info: '',
     info2: '',
+    info3: '',
+    info4: 'React(Next.js), TypeScript, TailwindCSS, remark, vercel',
     url: 'https://nextjs-blog-alpha-topaz.vercel.app/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -51,6 +55,8 @@ export const projectsData = [
     title: 'Hanjuku Engineer(this portfolio)',
     info: '',
     info2: '',
+    info3: '',
+    info4: 'React(Gatsby.js), Sass, Bootstrap, Netlify, Blobmaker, GetWaves',
     url: 'https://laughing-kare-0c08e3.netlify.app/',
     repo: 'https://github.com/pocketech/portfilio-gatsby', // if no repo, the button will not show up
   },
@@ -60,6 +66,8 @@ export const projectsData = [
     title: 'Pokedex with swr',
     info: '',
     info2: '',
+    info3: '',
+    info4: 'React(CRA), TypeScript, SWR, TailwindCSS, CSSGrid, GitHubPages',
     url: 'https://pocketech.github.io/pokedex-typescript-swr/',
     repo: 'https://github.com/pocketech/pokedex-typescript-swr', // if no repo, the button will not show up
   },
