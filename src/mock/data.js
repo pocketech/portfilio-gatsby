@@ -72,6 +72,17 @@ export const projectsData = [
     url: 'https://pocketech.github.io/pokedex-typescript-swr/',
     repo: 'https://github.com/pocketech/pokedex-typescript-swr', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'MovieSearch.jpg',
+    title: 'MovieSearchApp with TS',
+    info: 'Reactではじめて作ったアプリをTSでリファクタリングしたい！カスタムフックと仲良くない！型安全にデータフェッチしたい！',
+    info2: 'ロジックの切り出し方、コンテキストの受け渡し場所',
+    info3: '1. Context Providerを責務（取得or変更）で分割することによりRerenderを防ぐvalueの受け渡しを実現。2. dispatchとactionをカスタムフック（useMovieFetch）に隠蔽することでViewをシンプルにし、凝集度を高めた。3. useCallBack,React.memoでメモ化し、余計なレンダリングを防ぐ4. tailwindcssでカスタマイズ性の高いCSS',
+    info4: 'React(CRA), TypeScript, TailwindCSS, CSSGrid, GitHubPages',
+    url: 'https://pocketech.github.io/movieapp-ts-customhook/',
+    repo: 'https://github.com/pocketech/movieapp-ts-customhook', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
